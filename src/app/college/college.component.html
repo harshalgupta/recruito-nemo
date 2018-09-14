@@ -1,0 +1,26 @@
+<button (click)="goBack()">go back</button>
+<p>
+  college works!
+</p>
+
+<form [formGroup]="collegeForm" (ngSubmit)="onSubmit()">
+  <div formArrayName="details">
+    <div *ngFor="let address of details.controls; let i=index" [formGroupName]="i">
+      <label>College {{i+1}}</label>
+      <input type="text" formControlName="collegename">
+      <input type="text" formControlName="degreename">
+      <button *ngIf="details.controls.length > 1" (click)="deleteCollege(i)">Remove</button>
+    </div>
+  </div>
+
+  <!-- <button type="submit" [disabled]="!collegeForm.valid">Submit</button> -->
+</form>
+
+
+<button (click)="addCollege()">Add College</button>
+<button (click)="save()" class="saveButton">save</button>
+
+
+<!-- <div>
+   {{ (_collegeDetails | async) }}
+ </div> -->

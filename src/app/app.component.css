@@ -1,0 +1,198 @@
+/* Login */
+
+position: relative;
+width: 360px;
+height: 640px;
+
+background: #FFFFFF;
+
+
+/* Image 1 */
+#image1 {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url("/assets/images/mainbg.jpg");
+mix-blend-mode: multiply;
+opacity: 0.5;
+}
+
+/* Rectangle 7 */
+#rectangle7 {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(55.44deg, #43CEA2 10.67%, #2E94A0 44.8%, #185A9D 87.9%);
+mix-blend-mode: multiply;
+
+}
+/* Group 3 */
+#group1 {
+position: absolute;
+left: 24.17%;
+right: 23.61%;
+top: 38.75%;
+bottom: 51.09%;
+
+}
+
+/* Group */
+#group2 {
+position: absolute;
+left: 25.28%;
+right: 23.89%;
+top: 38.75%;
+bottom: 55%;
+}
+
+
+/* Fill 1 */
+#fill1 {
+position: absolute;
+left: 25.28%;
+right: 65.16%;
+top: 38.75%;
+bottom: 55.28%;
+
+background: #FFFFFF;
+}
+
+/* Fill 4 */
+#fill4 {
+position: absolute;
+left: 38.36%;
+right: 53.58%;
+top: 38.75%;
+bottom: 55.28%;
+
+background: #FFFFFF;
+}
+
+/* Fill 7 */
+#fill7 {
+position: absolute;
+left: 49.44%;
+right: 38.48%;
+top: 38.75%;
+bottom: 55.28%;
+
+background: #FFFFFF;
+
+}
+/* Fill 10 */
+#fill10 {
+position: absolute;
+left: 64.54%;
+right: 23.89%;
+top: 38.75%;
+bottom: 55%;
+
+background: #FFFFFF;
+}
+
+/* Path */
+
+/* position: absolute;
+left: 64.54%;
+right: 23.89%;
+top: 38.75%;
+bottom: 55%;
+
+background: #DADADA;
+
+
+/* Path */
+
+/* position: absolute;
+left: 67.01%;
+right: 26.37%;
+top: 39.94%;
+bottom: 56.19%;
+
+background: #DADADA; */
+
+
+/* sea of opportunities */
+#opportunities {
+position: absolute;
+height: 23px;
+left: 24.17%;
+right: 23.61%;
+top: calc(50% - 23px/2 - 18.5px);
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 18.2px;
+
+color: #FFFFFF;
+}
+
+/* Group 2 */
+
+/* position: absolute;
+left: 13.89%;
+right: 13.89%;
+top: 83.44%;
+bottom: 9.38%; */
+
+
+
+/* Mask */
+#linkedinbox {
+position: absolute;
+left: 13.89%;
+right: 26.67%;
+top: 83.44%;
+bottom: 9.38%;
+
+background: #FFFFFF;
+}
+
+/* Rectangle 12 */
+
+/* position: absolute;
+left: 73.33%;
+right: 13.89%;
+top: 83.44%;
+bottom: 9.38%;
+
+background: #017BB6; */
+
+
+/* linkedin-white-logo-png-14 */
+
+/* position: absolute;
+left: 76.11%;
+right: 16.67%;
+top: 84.84%;
+bottom: 11.1%;
+
+background: url(Image.png); */
+
+
+/* LinkedIn Sign up */
+#LinkedIn {
+position: absolute;
+height: 17px;
+left: 27.22%;
+right: 39.72%;
+top: calc(50% - 17px/2 + 237.5px);
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 14px;
+text-transform: uppercase;
+
+color: #4875B4;
+
+}

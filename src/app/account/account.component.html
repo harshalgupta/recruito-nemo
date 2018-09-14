@@ -1,0 +1,32 @@
+<h1>Update Account</h1>
+<input id="accountname" [(ngModel)]="name" placeholder="Name" spellcheck="false" type="text">
+<div class="lineBreaker"></div>
+<input [(ngModel)]="email" placeholder="Email" spellcheck="false" type="email" id="accountmail">
+<div class="lineBreaker"></div>
+<input  [(ngModel)]="role" placeholder="Designation" spellcheck="false" type="text" id="accountrole">
+<div class="lineBreaker"></div>
+<button id="collegeButton" class="DataEntryButton">
+  <a routerLink="/colleges">Colleges</a>
+</button>
+<button id="companiesButton" class="DataEntryButton">
+  <a routerLink="/companies">Companies</a>
+</button>
+<div class="lineBreaker"></div>
+<button id="saveButton"  title="save" onclick="onSaveButtonClicked()">save</button>
+
+
+<!-- <div id="statusBar">
+  <div id="wifi">
+    <div id="triangle2"></div>
+    <div id="triangle1"></div>
+  </div>
+  <div id="signal">
+    <div id="rectangle9"></div>
+    <div id="rectangle8"></div>
+  </div>
+  <div id="timeontop"></div>
+  <div id="battery">
+    <div id="rectangle4">
+      <div id=rectangle6></div>
+      <div id=rectangle5></div>
+      <div id=rectangle4></div> -->
